@@ -1,3 +1,26 @@
+## apriltag_ros (humble) - 3.1.2-1
+
+The packages in the `apriltag_ros` repository were released into the `humble` distro by running `/home/christian/.local/bin/bloom-release --rosdistro humble --track humble apriltag_ros` on `Sat, 01 Apr 2023 23:10:05 -0000`
+
+The `apriltag_ros` package was released.
+
+Version of package(s) in repository `apriltag_ros`:
+
+- upstream repository: https://github.com/christianrauch/apriltag_ros.git
+- release repository: https://github.com/ros2-gbp/apriltag_ros-release.git
+- rosdistro version: `3.1.1-1`
+- old version: `3.1.1-1`
+- new version: `3.1.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## apriltag_ros (humble) - 3.1.1-1
 
 The packages in the `apriltag_ros` repository were released into the `humble` distro by running `/home/christian/.local/bin/bloom-release --rosdistro humble --track humble apriltag_ros` on `Fri, 27 Jan 2023 17:59:31 -0000`
