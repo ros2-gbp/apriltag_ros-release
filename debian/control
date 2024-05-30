@@ -1,0 +1,12 @@
+Source: ros-jazzy-apriltag-ros
+Section: misc
+Priority: optional
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, ros-jazzy-ament-cmake, ros-jazzy-ament-cmake-clang-format <!nocheck>, ros-jazzy-ament-cmake-cppcheck <!nocheck>, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-apriltag, ros-jazzy-apriltag-msgs, ros-jazzy-cv-bridge, ros-jazzy-image-transport, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-sensor-msgs, ros-jazzy-tf2-ros, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-apriltag-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-apriltag, ros-jazzy-apriltag-msgs, ros-jazzy-cv-bridge, ros-jazzy-image-transport, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-sensor-msgs, ros-jazzy-tf2-ros, ros-jazzy-ros-workspace
+Description: AprilTag detection node
