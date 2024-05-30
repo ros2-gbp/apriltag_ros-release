@@ -1,3 +1,26 @@
+## apriltag_ros (rolling) - 3.2.0-1
+
+The packages in the `apriltag_ros` repository were released into the `rolling` distro by running `/usr/bin/bloom-release apriltag_ros -r rolling` on `Thu, 30 May 2024 11:44:19 -0000`
+
+The `apriltag_ros` package was released.
+
+Version of package(s) in repository `apriltag_ros`:
+
+- upstream repository: https://github.com/christianrauch/apriltag_ros.git
+- release repository: https://github.com/ros2-gbp/apriltag_ros-release.git
+- rosdistro version: `3.1.1-4`
+- old version: `3.1.1-4`
+- new version: `3.2.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.24.0`
+- rosdistro version: `0.9.1`
+- vcstools version: `0.1.42`
+
+
 ## apriltag_ros (jazzy) - 3.2.0-1
 
 The packages in the `apriltag_ros` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release apriltag_ros -r jazzy` on `Thu, 30 May 2024 11:42:40 -0000`
