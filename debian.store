@@ -1,1 +1,1 @@
-{"base": "44c1e36", "parent": "debian/rolling/apriltag_ros", "previous": "457068a", "trim": "", "trimbase": ""}
+{"base": "53d7b9f46753", "parent": "debian/kilted/apriltag_ros", "previous": "e1afdc23c7a5", "trim": "", "trimbase": ""}
