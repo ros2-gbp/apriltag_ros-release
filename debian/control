@@ -1,0 +1,12 @@
+Source: ros-lyrical-apriltag-ros
+Section: misc
+Priority: optional
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Build-Depends: debhelper (>= 9.0.0), clang-format <!nocheck>, libeigen3-dev, ros-lyrical-ament-cmake, ros-lyrical-ament-cmake-clang-format <!nocheck>, ros-lyrical-ament-cmake-cppcheck <!nocheck>, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-apriltag, ros-lyrical-apriltag-msgs, ros-lyrical-cv-bridge, ros-lyrical-image-transport, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-sensor-msgs, ros-lyrical-tf2-ros, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/apriltag_ros/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-apriltag-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-apriltag, ros-lyrical-apriltag-msgs, ros-lyrical-camera-ros, ros-lyrical-cv-bridge, ros-lyrical-image-proc, ros-lyrical-image-transport, ros-lyrical-image-transport-plugins, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-sensor-msgs, ros-lyrical-tf2-ros, ros-lyrical-ros-workspace
+Description: AprilTag detection node
